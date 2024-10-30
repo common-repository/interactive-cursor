@@ -1,0 +1,31 @@
+.inner__cursor{
+    position: absolute;
+    display: none;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #a6fff2;
+    z-index: 1;
+    margin-top: 40px;
+  }
+  .outer__cursor2{
+    position: absolute;
+    display: none;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    border: 2px solid #00e0ff;
+    z-index: 1;
+    transition-duration: 350ms;
+    transition-timing-function: ease-out;
+    margin-top: 40px;
+  }
+  .outer__cursor{
+    position: absolute;
+    display: none;
+    width: 40px; height: 40px;
+    border-radius: 50%;  
+    border: 2px solid #74f9ff;
+    z-index: 1;
+    transition-duration: 480ms;
+    transition-timing-function: ease-out;
+    margin-top: 40px;
+  }

@@ -1,0 +1,20 @@
+.nd-cursor .csf--image{
+    width:50%;
+    float:left;
+    margin:0px !important;
+    padding:5px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .cursor-free .csf-fieldset {
+    pointer-events: none;
+ }
+ .cursor-free .pro{
+    margin-left: 10px;
+    background: red;
+    color: white;
+    padding: 0px 7px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+}

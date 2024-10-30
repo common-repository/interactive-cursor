@@ -1,0 +1,16 @@
+<?php 
+    $options = get_option( 'nurency_cursor' );
+    echo '<div class="cursor"></div>';
+    $color = $options['primary_color'] ? 'border-color:'.$options['primary_color'].';' : '';
+    $height = $options['width_height'] ? 'width:'.$options['width_height'].'px;height:'.$options['width_height'].'px' : '';
+?>
+
+<style>
+.cursor{
+    <?php echo esc_attr($color);?>
+}
+.cursor{
+      <?php echo esc_attr($height);?> 
+  }
+</style>
+

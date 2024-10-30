@@ -1,0 +1,18 @@
+:root{
+    --fill1: none;
+    --fill2: url(#filter-1);
+    --stroke: #B85C38;
+    --stroke-w: 1px;
+}
+.cursor {
+	position: fixed;
+	transition: transform 0.15s ease-out;
+	pointer-events: none;
+	top:0px;
+  }
+  .cursor .cursor__inner {
+	fill: var(--fill1);
+	stroke: var(--stroke);
+	stroke-width: var(--stroke-w);
+	opacity: 0;
+  }

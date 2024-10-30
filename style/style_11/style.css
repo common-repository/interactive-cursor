@@ -1,0 +1,28 @@
+.cursor {
+	display: flex;
+	z-index: 999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	mix-blend-mode: exclusion;
+	width: 20px;
+	height: 20px;
+	background: white;
+	opacity: 0;
+  }
+  
+  .cursor-outline {
+	opacity: 0;
+	display: flex;
+	z-index: 998;
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	mix-blend-mode: multiply;
+	transition: all 0.5s ease-out;
+	width: 20px;
+	height: 20px;
+	background: gold;
+  }

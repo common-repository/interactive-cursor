@@ -1,0 +1,65 @@
+#cursor {
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    text-align: center;
+    border: 2px solid #0a43ff;
+    border-radius: 50%;
+    transition: all 0.25s linear;
+  }
+  
+  #cursorzwei {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0a43ff63;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  #circlezwei {
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #0a43ff;
+    transform: rotate(45deg);
+  }
+  
+  #cursorvanilla {
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    display: block;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    text-align: center;
+    border: 2px solid #0a43ff;
+    border-radius: 50%;
+    transition: all 0.5s linear;
+  }
+  
+  #circlevanilla {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 16px;
+    width: 10px;
+    height: 10px;
+    background-color: #0a43ff;
+    border-radius: 50%;
+  }
